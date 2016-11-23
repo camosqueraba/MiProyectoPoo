@@ -20,9 +20,11 @@ public class MiPerfilFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.mi_perfil,container,false);
 
+
         usuario = (EditText) v.findViewById(R.id.entrada_usuario);
         contraseña = (EditText)v.findViewById(R.id.entrada_mail);
         iniciasesion = (Button) v.findViewById(R.id.iniciar_sesion);
+
         iniciasesion.setOnClickListener(new View.OnClickListener(){
 
             @Override
