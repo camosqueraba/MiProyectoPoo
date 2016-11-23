@@ -6,9 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by win8 on 22/11/2016.
- */
 
 public class MapaFragment extends Fragment {
     @Override
