@@ -7,11 +7,18 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-
 public class ListaFragment extends Fragment {
+
+    public ListaFragment(){
+        super();
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.lista,container,false);
-        return v;
+
+         return v;
     }
 }
+
+
