@@ -21,9 +21,9 @@
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginTop="2dp"
-        android:hint="Telefono o E-Mail"
+        android:hint="Teléfono o E-Mail"
         android:ems="20"
-        android:id="@+id/entrada_nombre"
+        android:id="@+id/entrada_usuario"
         android:textSize="30dp" />
 
     <EditText
@@ -39,20 +39,16 @@
         android:textSize="30dp"/>
 
     <Button
-        android:text="Crear"
-        android:layout_width="match_parent"
+        android:text="INICIAR SESIÓN"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
+
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginTop="2dp"
-        android:id="@+id/ingresa_datos" />
+        android:layout_gravity="right"
+        android:id="@+id/iniciar_sesion" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:ems="10"
-        android:id="@+id/editText2" />
 
 
 </LinearLayout>
