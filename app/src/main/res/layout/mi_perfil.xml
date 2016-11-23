@@ -17,24 +17,24 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType="textMultiLine"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginTop="2dp"
-        android:text="Nombre"
-        android:ems="10"
+        android:hint="Telefono o E-Mail"
+        android:ems="20"
         android:id="@+id/entrada_nombre"
         android:textSize="30dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
+        android:inputType="textPassword"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginTop="2dp"
-        android:text="E-mail"
-        android:ems="10"
+        android:hint="Contraseña"
+        android:ems="18"
         android:id="@+id/entrada_mail"
         android:textSize="30dp"/>
 
@@ -46,4 +46,13 @@
         android:layout_marginRight="5dp"
         android:layout_marginTop="2dp"
         android:id="@+id/ingresa_datos" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2" />
+
+
 </LinearLayout>
