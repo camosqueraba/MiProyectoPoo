@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <tabs>
+        <tab
+            id="@+id/tab_buscar"
+            icon="@drawable/ic_buscar_tab"
+            title="Buscar"
+            barColorWhenSelected="#ffffff"/>
+        <tab
+            id="@+id/tab_lista"
+            icon="@drawable/ic_lista_tab"
+            title="Lista"
+            barColorWhenSelected="#ffffff"/>
+        <tab
+            id="@+id/tab_mapa"
+            icon="@drawable/ic_mapa_tab"
+            title="Mapa"
+            barColorWhenSelected="#ffffff"/>
+        <tab
+            id="@+id/tab_miperfil"
+            icon="@drawable/ic_miperfil_tab"
+            title="Mi perfil"
+            barColorWhenSelected="#ffffff"/>
+    </tabs>
+
+</PreferenceScreen>

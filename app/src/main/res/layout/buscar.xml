@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:src="@mipmap/cafe"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <Button
+                android:text="Desayuno"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/buttonDesayuno"
+                android:background="#efeff4"
+                android:layout_weight="1"
+                android:drawableTop="@mipmap/boton_desayuno"
+                android:textAllCaps="false"
+
+                android:textColor="#606a6f"
+                android:elevation="0dp" />
+
+            <Button
+                android:text="Almuerzo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/buttonAlmuerzo"
+                android:background="#efeff4"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:drawableTop="@mipmap/boton_almuerzo"
+                android:textColor="#606a6f"/>
+
+            <Button
+                android:text="Cena"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/buttonCena"
+                android:background="#efeff4"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:drawableTop="@mipmap/boton_cena"
+
+                android:textColor="#606a6f" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4">
+            <Button
+                android:text="Cafe y Te"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/buttonCafeyTe"
+                android:background="#efeff4"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:drawableTop="@mipmap/boton_cafeyte"
+
+                android:textColor="#606a6f"/>
+
+            <Button
+                android:text="Nocturna"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/buttonNoturna"
+                android:background="#efeff4"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:drawableTop="@mipmap/boton_nocturna"
+
+                android:textColor="#606a6f" />
+
+            <Button
+                android:text="Cosas por hacer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#efeff4"
+                android:id="@+id/buttonCosasHacer"
+                android:textAllCaps="false"
+                android:drawableTop="@mipmap/boton_cosasporhacer"
+
+                android:textColor="#606a6f"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
